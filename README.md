@@ -14,6 +14,8 @@ to start it as a init.d service. Basically you have to create a link in init.d f
 
 <code>$ sudo ln -s /full/path/to/project/folder/target/gsspring.jar /etc/init.d/gsspring</code>
 
+<code>$ sudo chmod u+x target/gsspring.jar</code>
+
 <code>$ sudo service gsspring start</code>
 
 then go to http://localhost:8082 you will see
